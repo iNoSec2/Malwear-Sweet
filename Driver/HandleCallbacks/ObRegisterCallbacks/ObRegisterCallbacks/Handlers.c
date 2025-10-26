@@ -110,7 +110,7 @@ PreOperationCallback(
 			callingProcessName[15] = '\0';  // Null-terminate the process name
 
 			DbgPrint(
-				"PreOperationCallback fired, %s (PID: %u) requested a handle lsass.exe\n"
+				"PreOperationCallback fired, %s (PID: %u) requested a handle on lsass.exe\n"
 				"    Client Id:    %p:%p\n"
 				"    Object:       %p\n"
 				"    Type:         %ls\n"
